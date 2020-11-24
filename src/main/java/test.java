@@ -1,9 +1,4 @@
-
-
-
-
 import org.apache.commons.validator.routines.RegexValidator;
-
 
 public class test
 {
@@ -38,7 +33,7 @@ public class test
         }
         else
         {
-            if(!valid1)
+            if(valid1)
             {
                 System.out.println("是时间");
                 return "是时间";
